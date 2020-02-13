@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Template</title>
+        <style>
+            *{
+                box-sizing:border-box;
+
+            }
+            [class*="col-"]{
+                padding: 15px; float: left; width: 100%;
+            }
+            .header{
+                background: url("logo_moklet.png") #f7be16 no-repeat center;
+                background-size: 100px 100px;
+                height: 200px;
+            }
+
+            @media only screen and (min-width: 600px){
+                /*For tablets */
+                .col-s-1 {width: 8.33%;}
+                .col-s-2 {width: 16.66%;}
+                .col-s-3 {width: 25%;}
+                .col-s-4 {width: 33.33%;}
+                .col-s-5 {width: 41.66%;}
+                .col-s-6 {width: 50%;}
+                .col-s-7 {width: 58.33%;}
+                .col-s-8 {width: 66.66%;}
+                .col-s-9 {width: 75%;}
+                .col-s-10 {width: 83.33%;}
+                .col-s-11 {width: 91.66%;}
+                .col-s-12 {width: 100%;}
+                .header{
+                    background: url("A2.png") #f7be16 no-repeat center;
+                    height: 200px;
+                }
+            }
+            @media only screen and (min-width: 768px) {
+                /* for dekstop: */
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+                .header{
+                    background: url("logo_moklet.png") #f7be16 no-repeat center;
+                    height: 200px;
+                }
+                .container{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                .sidebar ul{
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    overflow: hidden;
+                    background:red;
+                }
+                .sidebar ul li{
+                    float: left;
+                    width: 100%;
+                    border-bottom: 2px solid #65587f;
+                }
+                .sidebar ul li a{
+                    display: block;
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 15px;
+                    text-align: left;
+                }
+                .content{ text-align: justify; }
+                .footer{
+                    background: #f7be16;
+                    color: #192965;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <!--header mulai-->
+            <div class="col-12 header">
+            </div>
+            <!--akhir header-->
+            <!--awal menu-->
+            <div class="col-3 col-s-5 sidebar">
+                <ul>
+                    <li> <a href="#">beranda</a> </li>
+                    <li> <a href="#">profil</a> </li>
+                    <li> <a href="#">kontak kami</a> </li>
+                </ul>
+            </div>
+            <!--akhir menu-->
+            <!--awal konten-->
+            <div class="col-9 col-s-7 content">
+                <p>
+                    Pola hidup sehat sebaiknya dijalankan sejak dini agar terhindar dari berbagai serangan penyakit.
+                    Penyakit yang mengintai akibat pola hidup yang buruk antara lain diabetes, gagal ginjal, kanker, maupun penyakit kardiovaskular seperti stroke, darah tinggi, dan jantung.
+                    Sebaliknya, apabila menerapkan pola hidup sehat nantinya akan memberi efek yang luar biasa dan terhindar dari penyakit tersebut.Dengan memiliki kesehatan tubuh yang lebih baik, Anda dapat merasa lebih semangat dalam menjalani hidup serta meningkatkan produktivitas. 
+                    Jangan tunda untuk mulai merencanakan dan menerapkan kebiasaan gaya hidup sehat.
+                </p>
+            </div>
+            <!-- akhir konten -->
+            <!-- awal footer -->
+            <div class="col-12 footer">
+                &copy; copyright by comel
+            </div>
+            <!-- akhir footer -->
+        </div>
+    </body>
+    </html>
